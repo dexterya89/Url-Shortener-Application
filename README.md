@@ -1,35 +1,41 @@
-🔗 URL Shortener Application
+**URL Shortener Application**
+
 The URL Shortener is a full-stack web application that transforms long, cumbersome URLs into clean, concise short links — just like Bitly or TinyURL. Built using Node.js, Express, React (with Vite), and MongoDB, it offers a fast and responsive user experience backed by a scalable backend.
-Live Demo:
+
+**Live Demo:**
+
 👉 Deployed App Link : https://url-shortnener-application.netlify.app/
 
-🛠 Tech Stack:
-Frontend: React + Vite (blazing-fast builds & hot reloading)
+🛠 **Tech Stack:**
 
-Backend: Node.js + Express (RESTful API)
+  1. Frontend: React + Vite (blazing-fast builds & hot reloading)
 
-Database: MongoDB (Mongoose ORM)
+  2. Backend: Node.js + Express (RESTful API)
 
-Deployment: Compatible with platforms like Render, Railway, or Vercel + MongoDB Atlas
+  3. Database: MongoDB (Mongoose ORM)
 
-🌐 Features:
-Convert long URLs into unique, short versions
+  4. Deployment: Compatible with platforms like Render, Railway, or Vercel + MongoDB Atlas
 
-All shortened URLs are stored in MongoDB with timestamp and click tracking potential
+🌐 **Features:**
 
-Seamless redirection from short links to original URLs
+  1. Convert long URLs into unique, short versions
 
-Clean UI with real-time feedback on successful shortening
+  2. All shortened URLs are stored in MongoDB with timestamp and click tracking potential
 
-Environment-based configuration using .env for secure API and DB access
+  3. Seamless redirection from short links to original URLs
 
-📦 Functionality Flow:
-User submits a long URL via a React form.
+  4. Clean UI with real-time feedback on successful shortening
 
-Frontend sends a POST request to the Express server.
+  5. Environment-based configuration using .env for secure API and DB access
 
-Server generates a unique short code and saves it along with the original URL in MongoDB.
+📦 **Functionality Flow:**
 
-User receives a short URL, which they can share or revisit.
+  - User submits a long URL via a React form.
 
-Hitting the short URL routes the request back to the backend, which fetches the original URL and redirects the user.
+  - Frontend sends a POST request to the Express server.
+
+  - Server generates a unique short code and saves it along with the original URL in MongoDB.
+
+  - User receives a short URL, which they can share or revisit.
+
+  - Hitting the short URL routes the request back to the backend, which fetches the original URL and redirects the user.
