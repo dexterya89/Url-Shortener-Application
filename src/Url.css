@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #10172a;
+}
+
+@layer base{
+  h1{
+    font-size:1.7rem !important;
+    color: #fff;
+    margin-bottom: 1rem;
+
+  }
+
+  button{
+    padding: 1rem;
+    width: fit-content;
+    border: 2px solid skyblue 500;
+    background-color: skyblue !important;
+    color: black;
+  }
+}
